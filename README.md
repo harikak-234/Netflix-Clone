@@ -1,4 +1,4 @@
-Creating a Netflix clone using HTML, CSS, and JSON was a challenging yet rewarding experience. The project involved developing two main pages: a Sign-In page and a Movies page, aiming to replicate the basic functionality and design of Netflix's interface.
+Creating a Netflix clone using HTML, CSS, and JSON was a challenging yet rewarding experience. The project involved developing two main pages: a Sign-In page and a Movies page, aiming to replicate the basic functionality and design of Netflix's interface. 
 
 The Sign-In page serves as the entry point, designed to be clean and straightforward, focusing on user authentication. It includes input fields for the user's email and password and a submit button. Using CSS, I ensured the page was visually appealing and aligned with Netflix's branding. Implementing responsive design principles was crucial to make sure the Sign-In page looked good on both desktop and mobile devices.
 
