@@ -1,36 +1,11 @@
-# Netflix Clone 🍿
-Este é um clone do Netflix desenvolvido como parte de um projeto pessoal. O projeto foi construído utilizando HTML, CSS, JavaScript e Bootstrap. Abaixo estão alguns detalhes sobre como o site foi estruturado e algumas funcionalidades-chave. **(O responsivo está sendo desenvolvido)**.
+Creating a Netflix clone using HTML, CSS, and JSON was a challenging yet rewarding experience. The project involved developing two main pages: a Sign-In page and a Movies page, aiming to replicate the basic functionality and design of Netflix's interface.
 
-# Funcionalidades Principais ⚙️
-- **Página de Login**: O usuário é redirecionado para a página de login, onde pode inserir seu email ou número de telefone e senha para acessar a plataforma. Ao clicar no botão "Entrar" você é redirecionado(a) para navegação.
-- **Navegação**: A barra de navegação superior permite que o usuário explore diferentes seções do site, como Início, Séries, Filmes, Bombando e Minha Lista.
-- **Vídeo em Destaque**: A página inicial exibe um vídeo em destaque, com opções para assistir agora ou obter mais informações sobre o conteúdo.
-- **Sliders de Conteúdo**: Os sliders na parte inferior da página apresentam uma seleção de conteúdo recomendado, incluindo séries, filmes e outros.
+The Sign-In page serves as the entry point, designed to be clean and straightforward, focusing on user authentication. It includes input fields for the user's email and password and a submit button. Using CSS, I ensured the page was visually appealing and aligned with Netflix's branding. Implementing responsive design principles was crucial to make sure the Sign-In page looked good on both desktop and mobile devices.
 
-# Como Acessar 📺
-O projeto está hospedado no Vercel e pode ser acessado [aqui](https://netflixo-ivory.vercel.app/).
+Upon successful sign-in, users are redirected to the Movies page. This page displays a list of movies, mimicking Netflix's browsing interface. The Movies page was designed with a flexible grid layout using CSS, allowing for a dynamic and responsive display of movie thumbnails. Each movie thumbnail includes an image, title, and a brief description, closely resembling the actual Netflix interface.
 
-# Visualizações 🎞️
-**Página de Login**
+The movie data is stored in a JSON file, which the Movies page fetches and displays dynamically. Utilizing JSON allowed for easy updating and management of movie data without altering the HTML structure. JavaScript was used to handle the fetching and parsing of the JSON data, dynamically generating the HTML content to display the movies.
 
-![img](https://imgur.com/AwpJHo7.jpg)
+Styling was a crucial aspect of the project. The CSS file for the Movies page included styles for the grid layout, movie thumbnails, hover effects, and overall page aesthetics. Paying attention to styling details ensured the clone closely resembled the actual Netflix interface, providing a familiar and enjoyable user experience.
 
-**Página Inicial** 
-
-
-![img](https://imgur.com/RizNPmP.jpg)
-
-**Slides dos filmes**
-
-
-![img](https://imgur.com/K8GFPu9.jpg)
-
-**Vídeo demonstração**
-
-https://github.com/pamyszz/netflixo/assets/153380356/53957106-9233-4f3a-b278-acbf375f3a56
-
-# Autores ✍️
-
-Pamela Miranda - Desenvolvedora Frontend e UI/UX Designer
-
-## Divirta-se com o projeto 🚀
+In conclusion, developing this Netflix clone enhanced my web development skills. The project involved creating a user authentication interface, fetching and displaying dynamic data, and designing a responsive layout. This project not only demonstrates my proficiency in web development technologies but also lays the foundation for more advanced projects in the future.
